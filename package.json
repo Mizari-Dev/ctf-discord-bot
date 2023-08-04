@@ -1,0 +1,30 @@
+{
+  "name": "Wac-E",
+  "version": "3.0.0",
+  "description": "A CTF Discord bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --trace-deprecation -r dotenv/config index.js",
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mizari-W/ctf-discord-bot.git"
+  },
+  "author": "Mizari",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mizari-W/ctf-discord-bot/issues"
+  },
+  "homepage": "https://github.com/Mizari-W/ctf-discord-bot#readme",
+  "dependencies": {
+    "@notionhq/client": "^0.4.13",
+    "discord.js": "^14.11.0",
+    "dotenv": "^10.0.0",
+    "fs": "^0.0.1-security",
+    "glob": "^7.2.3",
+    "jimp": "^0.22.8",
+    "qrcode-reader": "^1.0.4",
+    "tempy": "^1.0.1"
+  }
+}
